@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Musical Mania :: Submissions</title>
+        <link href="musical-mania.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="resources/music-32x32.png" sizes="32x32"/>
+        <link rel="icon" type="image/png" href="resources/music-16x16.png" sizes="16x16"/>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <nav>
+                    <a href="submissions.html">Submissions</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            Attendance Tips
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="ticket-info.html">Ticket Info</a>
+                            <a href="performance-tiers.html">Performance Tiers</a>
+                            <a href="seating.html">Seating</a>
+                            <a href="theatrequette.html">Theatrequette</a>
+                        </div>
+                    </div>
+                    <a href="now-playing.html">Now Playing</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="index.html">Home</a>
+
+                </nav>
+
+            </header>
+
+            <main>
+                <h2>Submit Content to be Featured on Musical Mania!</h2>
+
+                <p>Please fill out the following form to submit content for Musical Mania! You may also use this form to submit
+                a comment on the site or to reach me for questions and concerns. Please ensure you choose the correct submission
+                type so that I can get back to you as quickly as possible!</p>
+
+                <p>If your submission is accepted for use on the site, you will receive an e-mail at the provided address
+                before it is posted. Please make sure to check regularly as submissions will be approved on a weekly basis.</p>
+
+                <p>Required fields are marked with an asterisk *</p>
+
+                <form id="submissions-form" action="#">
+
+                    <label for="fName">*First Name:</label>
+                    <input type="text" id="fName" name="fName" required>
+
+                    <label for="email">*E-Mail Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="submissionType">*Submission Type:</label>
+                    <select id="submissionType" name="submissionType" required>
+                        <option id="reviewSubmission">Performance Review</option>
+                        <option id="commentSubmission">Comment</option>
+                        <option id="contactSubmission">Contact</option>
+                    </select>
+
+                    <label for="prodName">*Name of Show:</label>
+                    <input type="text" id="prodName" name="prodName" required>
+
+                    <label for="prodLocation">*Show Location:</label>
+                    <input type="text" id="prodLocation" name="prodLocation" required>
+
+                    <label for="prodDate">*Show Date:</label>
+                    <input type="date" id="prodDate" name="prodDate" required>
+
+                    <label for="prodLeads">Lead Performer:</label>
+                    <input type="text" id="prodLeads" name="prodLeads">
+
+                    <label for="prodReview">*Review Content:</label>
+                    <textarea id="prodReview" rows="10" cols="100" required></textarea>
+
+                    <input type="submit">
+                </form>
+            </main>
+
+            <footer>
+                Musical Mania
+                <br>
+                Copyright &copy; 2018 Musical Mania
+                <br>
+                Email: <a href="mailto:musical.mania@gmail.com">musical.mania@gmail.com</a>
+            </footer>
+        </div>
+
+    </body>
+</html>
