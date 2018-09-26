@@ -126,6 +126,7 @@ body {
 .column img {
     display: block;
     margin: auto auto;
+    padding-top: 5px;
     box-shadow: 5px 5px 5px #4E78B2;
 }
 
