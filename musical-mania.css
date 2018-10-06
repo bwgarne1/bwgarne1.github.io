@@ -119,10 +119,12 @@ body {
 
 .review-left img {
     float: left;
+    box-shadow: 5px 5px 5px #4E78B2;
 }
 
 .review-right img {
     float: right;
+    box-shadow: 5px 5px 5px #4E78B2;
 }
 
 .review-right p {
